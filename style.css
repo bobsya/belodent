@@ -1,0 +1,18 @@
+body {
+	background: #000000;
+}
+.logo {
+    width: 91px;
+    height: 83px;
+    background-image: url("sprite/logo.png");
+    animation: logo 2s steps(101) infinite; 
+}
+
+@keyframes logo {
+  0% { 
+    background-position: 0 0; 
+  }
+   100% { 
+    background-position: -9191px 0; 
+  }
+}
